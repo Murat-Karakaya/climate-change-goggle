@@ -1,0 +1,1 @@
+This is a source code of a simple brave goggle about climate change. It is meant to make it easier to do research about climate change using Brave search engine. You can try to contribute to this goggle in any way. If you suggest to add more lines, it will probably be accepted

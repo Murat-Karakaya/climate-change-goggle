@@ -1,0 +1,52 @@
+! name: Climate Change
+! description: Reranks results to boost contents about climate change.
+! public: true
+! author: Murat Karakaya
+! avatar: #18de1c
+
+! You can visit the repository of this goggle in github.com/Murat-Karakaya/climate-change-goggle
+
+$boost=3,site=ourworldindata.org
+$boost=3,site=un.org
+$boost=3,site=iea.org
+$boost=3,site=nature.com
+$boost=3,site=climate.nasa.gov
+$boost=3,site=ipcc.ch
+$boost=3,site=unfccc.int
+$boost=3,site=public.wmo.int
+$boost=3,site=climatecentral.org
+$boost=3,site=carbonbrief.org
+$boost=3,site=ucsusa.org
+$boost=3,site=climaterealityproject.org
+$boost=3,site=wri.org
+$boost=3,site=edf.org
+$boost=3,site=greenpeace.org
+$boost=3,site=theclimategroup.org
+$boost=3,site=climatechangenews.com
+$boost=3,site=yaleclimateconnections.org
+$boost=3,site=climate.gov
+$boost=3,site=doi.gov
+$boost=3,site=sej.org
+$boost=3,site=climate.gov
+$boost=3,site=climate.gov
+$boost=3,site=climate.gov
+$boost=3,site=climate.gov
+$boost=3,site=climate.gov
+/topic/climate^$boost=3,site=sciencenews.org
+/climate^$boost=3
+/carbon-dioxide^$boost=3
+/carbon-dioxide-emmitions^$boost=3
+/climate-change^$boost=3
+/methane-emmitions^$boost=3
+/methane^$boost=3
+/fossil-fuels^$boost=3
+/fossil-fuel^$boost=3
+/greenhouse-gases^$boost=3
+/deforestation^$boost=3
+/global-warming^$boost=3
+/renewable-energy^$boost=3
+/renewable-energies^$boost=3
+/climate^$boost=3
+/climate^$boost=3
+/climate^$boost=3
+/climate^$boost=3
