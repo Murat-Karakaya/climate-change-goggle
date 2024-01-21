@@ -6,7 +6,7 @@
 
 ! You can visit the repository of this goggle in github.com/Murat-Karakaya/climate-change-goggle
 $discard
-$boost=4,site=ourworldindata.org
+$boost=5,site=ourworldindata.org
 $boost=3,site=un.org
 $boost=3,site=iea.org
 $boost=5,site=nature.com
