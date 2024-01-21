@@ -45,4 +45,5 @@ $boost=2,site=climate.gov
 /*renewable-energy*^$boost=5
 /*renewable-energies*^$boost=5
 /*enviroment*^$boost=3
-|https://murat-karakaya.github.io/iklimsel-yenilik/|$boost=6
+/iklimsel-yenilik/$boost=6,site=murat-karakaya.github.io
+/Murat-Karakaya/iklimsel-yenilik/$boost=6,site=github.com
