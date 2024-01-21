@@ -1,4 +1,4 @@
-! name: Climate Change
+! name: About Climate Change
 ! description: Reranks results to boost contents about climate change.
 ! public: true
 ! author: Murat Karakaya
@@ -31,7 +31,6 @@ $boost=3,site=doi.gov
 $boost=5,site=sej.org
 $boost=5,site=epa.gov
 /*climate*^$boost=5
-/*Climate*^$boost=5
 /*carbon-dioxide*^$boost=5
 /*carbon-dioxide-emissions*^$boost=5
 /*climate-change*^$boost=5
