@@ -5,7 +5,7 @@
 ! avatar: #18de1c
 
 ! You can visit the repository of this goggle in github.com/Murat-Karakaya/climate-change-goggle
-$discard
+
 $boost=5,site=ourworldindata.org
 $boost=3,site=un.org
 $boost=3,site=iea.org
