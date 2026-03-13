@@ -6,9 +6,6 @@
 
 ! You can visit the repository of this goggle in github.com/Murat-Karakaya/climate-change-goggle
 
-! ======================================================================
-! TIER 1: GLOBAL INTERGOVERNMENTAL & TOP-LEVEL SCIENTIFIC AUTHORITIES
-! ======================================================================
 $boost=10,site=ipcc.ch
 $boost=10,site=unfccc.int
 $boost=10,site=unep.org
@@ -20,10 +17,6 @@ $boost=10,site=copernicus.eu
 $boost=10,site=eea.europa.eu
 $boost=10,site=worldbank.org/en/topic/climatechange
 $boost=10,site=imf.org/en/Topics/climate-change
-
-! ======================================================================
-! TIER 2: MAJOR NATIONAL GOVERNMENT ENVIRONMENTAL AGENCIES
-! ======================================================================
 $boost=9,site=epa.gov
 $boost=9,site=noaa.gov
 $boost=9,site=nrel.gov
@@ -32,23 +25,18 @@ $boost=9,site=usgs.gov
 $boost=9,site=csiro.au
 $boost=9,site=bom.gov.au
 $boost=9,site=metoffice.gov.uk
-$boost=9,site=canada.ca/en/environment-climate-change.html
-$boost=9,site=bmuv.de
-$boost=9,site=ec.europa.eu/clima/
 $boost=9,site=niwa.co.nz
 $boost=9,site=dwd.de
 $boost=9,site=meteofrance.com
 $boost=9,site=jma.go.jp
 $boost=9,site=smhi.se
 $boost=9,site=dmi.dk
-
-! ======================================================================
-! TIER 3: LEADING SCIENTIFIC JOURNALS & DATA AGGREGATORS
-! ======================================================================
+$boost=9,site=bmuv.de
+$boost=9,site=ec.europa.eu
 $boost=9,site=nature.com
 $boost=9,site=science.org
 $boost=9,site=pnas.org
-$boost=9,site=https://www.google.com/search?q=cell.com/one-earth/
+$boost=9,site=cell.com
 $boost=9,site=ourworldindata.org
 $boost=9,site=royalsocietypublishing.org
 $boost=9,site=agu.org
@@ -57,15 +45,11 @@ $boost=9,site=rmets.org
 $boost=9,site=egu.eu
 $boost=8,site=sciencedirect.com
 $boost=8,site=springer.com
-$boost=8,site=https://www.google.com/search?q=thelancet.com/planetary-health
+$boost=8,site=thelancet.com
 $boost=8,site=iop.org
 $boost=8,site=wiley.com
 $boost=8,site=frontiersin.org
 $boost=8,site=tandfonline.com
-
-! ======================================================================
-! TIER 4: CLIMATE-FOCUSED THINK TANKS, NGOS, & INSTITUTES
-! ======================================================================
 $boost=8,site=iea.org
 $boost=8,site=irena.org
 $boost=8,site=wri.org
@@ -79,21 +63,13 @@ $boost=8,site=ember-climate.org
 $boost=8,site=climateactiontracker.org
 $boost=8,site=cdp.net
 $boost=8,site=rmi.org
-$boost=8,site=lse.ac.uk/granthaminstitute
-$boost=7,site=edf.org
+$boost=8,site=edf.org
 $boost=7,site=nrdc.org
 $boost=7,site=ucsusa.org
 $boost=7,site=nature.org
 $boost=7,site=worldwildlife.org
 $boost=7,site=greenpeace.org
-$boost=7,site=earthjustice.org
-$boost=7,site=catf.us
-$boost=7,site=wcs.org
 $boost=7,site=climaterealityproject.org
-
-! ======================================================================
-! TIER 5: DEDICATED CLIMATE JOURNALISM & REPORTING
-! ======================================================================
 $boost=8,site=carbonbrief.org
 $boost=8,site=climatecentral.org
 $boost=8,site=insideclimatenews.org
@@ -102,142 +78,45 @@ $boost=7,site=climatechangenews.com
 $boost=7,site=grist.org
 $boost=7,site=desmog.com
 $boost=7,site=eco-business.com
-$boost=7,site=sej.org
-
-! ======================================================================
-! TIER 6: ACADEMIC INSTITUTION PATH TARGETING (Top Universities)
-! ======================================================================
-/climate/^$boost=8,site=harvard.edu
-/environment/^$boost=8,site=harvard.edu
-/climate/^$boost=8,site=yale.edu
-/environment/^$boost=8,site=yale.edu
-/climate/^$boost=8,site=stanford.edu
-/environment/^$boost=8,site=stanford.edu
-/climate/^$boost=8,site=mit.edu
-/environment/^$boost=8,site=mit.edu
-/climate/^$boost=8,site=princeton.edu
-/climate/^$boost=8,site=berkeley.edu
-/climate/^$boost=8,site=ucla.edu
-/climate/^$boost=8,site=columbia.edu
-/climate/^$boost=8,site=cornell.edu
-/climate/^$boost=8,site=ox.ac.uk
-/environment/^$boost=8,site=ox.ac.uk
-/climate/^$boost=8,site=cam.ac.uk
-/environment/^$boost=8,site=cam.ac.uk
-/climate/^$boost=8,site=imperial.ac.uk
-/climate/^$boost=8,site=ucl.ac.uk
-/climate/^$boost=8,site=ethz.ch
-/climate/^$boost=8,site=epfl.ch
-/climate/^$boost=8,site=utoronto.ca
-/climate/^$boost=8,site=ubc.ca
-/climate/^$boost=8,site=unimelb.edu.au
-/climate/^$boost=8,site=anu.edu.au
-
-! ======================================================================
-! TIER 7: GENERAL NEWS MEDIA DIRECTORY TARGETING (Boosting climate desks)
-! ======================================================================
-/climate-change/^$boost=5
+$boost=8,site=climate.columbia.edu
+$boost=8,site=environment.yale.edu
+$boost=8,site=climate.mit.edu
+$boost=8,site=sustainability.stanford.edu
+$boost=8,site=climate.harvard.edu
+$boost=8,site=oceanservice.noaa.gov
 /climate/^$boost=5
 /environment/^$boost=5
-/science/climate/^$boost=5
-/news/science-environment-^$boost=5
-/energy-environment/^$boost=5
-/climate-environment/^$boost=5
-/section/climate/^$boost=5
-/category/environment/^$boost=5
-
-! ======================================================================
-! TIER 8: GRANULAR KEYWORD TARGETING (URL String Matching)
-! ======================================================================
-
-! --- General Climate & Atmosphere ---
+/sustainability/^$boost=4
+/earth-science/^$boost=4
+/atmospheric-science/^$boost=5
 climate-crisis^$boost=5
 climate-emergency^$boost=5
 global-warming^$boost=5
 greenhouse-gas^$boost=5
 ghg-emissions^$boost=5
-carbon-footprint^$boost=5
-carbon-dioxide^$boost=5
-co2-emissions^$boost=5
+carbon-sequestration^$boost=5
+carbon-cycle^$boost=4
 methane-emissions^$boost=5
-ch4-emissions^$boost=5
-nitrous-oxide^$boost=4
-fluorinated-gases^$boost=4
-
-! --- Impacts & Phenomena ---
 sea-level-rise^$boost=5
 ocean-acidification^$boost=5
 extreme-weather^$boost=4
 coral-bleaching^$boost=4
 glacial-retreat^$boost=4
 permafrost-melt^$boost=5
-permafrost-thaw^$boost=5
 biodiversity-loss^$boost=4
-desertification^$boost=4
-heatwave-impact^$boost=4
-drought-severity^$boost=4
-wildfire-risk^$boost=4
-coastal-erosion^$boost=4
-ocean-warming^$boost=5
-ice-sheet-collapse^$boost=5
-
-! --- Energy & Transition ---
 renewable-energy^$boost=5
 solar-power^$boost=4
-solar-energy^$boost=4
 wind-power^$boost=4
-wind-energy^$boost=4
-offshore-wind^$boost=4
-geothermal-energy^$boost=4
-hydroelectric-power^$boost=3
-bioenergy^$boost=3
 energy-transition^$boost=5
-clean-energy-transition^$boost=5
 decarbonization^$boost=5
-net-zero-emissions^$boost=5
-carbon-neutrality^$boost=4
-fossil-fuel-phase-out^$boost=5
-green-hydrogen^$boost=4
-smart-grid-technology^$boost=4
-energy-storage^$boost=4
-ev-adoption^$boost=4
-
-! --- Policy & Economics ---
+net-zero^$boost=5
+carbon-neutral^$boost=4
 paris-agreement^$boost=6
-kyoto-protocol^$boost=5
-cop28^$boost=5
-cop29^$boost=5
-cop30^$boost=5
-unfccc-summit^$boost=5
 carbon-pricing^$boost=5
-carbon-tax^$boost=4
-cap-and-trade^$boost=4
-climate-finance^$boost=5
-climate-justice^$boost=5
-esg-investing^$boost=3
-esg-reporting^$boost=3
-sustainability-goals^$boost=4
-sdg13^$boost=5
 climate-adaptation^$boost=5
 climate-mitigation^$boost=5
-
-! --- Technology & Mitigation Solutions ---
-carbon-capture^$boost=5
-carbon-capture-and-storage^$boost=5
-ccs-technology^$boost=4
 direct-air-capture^$boost=5
-dac-technology^$boost=5
-geoengineering^$boost=4
-solar-radiation-management^$boost=3
-afforestation^$boost=4
-reforestation^$boost=4
-blue-carbon^$boost=4
-regenerative-agriculture^$boost=4
-circular-economy^$boost=4
-
-! ======================================================================
-! TIER 9: DISCARD / DOWNRANK (Cleaning the index of known denial/low-quality sites)
-! ======================================================================
+nature-based-solutions^$boost=4
 $discard,site=wattsupwiththat.com
 $discard,site=climatedepot.com
 $discard,site=realclimatescience.com
@@ -250,7 +129,6 @@ $discard,site=cornwallalliance.org
 $discard,site=iceagenow.info
 $discard,site=junkscience.com
 
-! Downranking sites that frequently mix opinion with unverified science
 $downrank=10,site=heartland.org
 $downrank=10,site=thegwpf.org
 $downrank=9,site=breitbart.com
@@ -259,17 +137,21 @@ $downrank=9,site=infowars.com
 $downrank=8,site=dailymail.co.uk
 $downrank=8,site=nypost.com
 $downrank=7,site=foxnews.com
-
-! ======================================================================
-! TIER 10: STATE & LOCAL GOVERNMENT ENVIRONMENTAL AGENCIES (US FOCUS EXTENSION)
-! ======================================================================
 $boost=8,site=arb.ca.gov
 $boost=8,site=dec.ny.gov
 $boost=8,site=tceq.texas.gov
 $boost=8,site=dep.pa.gov
-$boost=8,site=epa.illinois.gov
-$boost=8,site=floridadep.gov
 $boost=8,site=ecology.wa.gov
-$boost=8,site=mass.gov/orgs/massachusetts-department-of-environmental-protection
 $boost=8,site=michigan.gov/egle
 $boost=8,site=deq.nc.gov
+$boost=8,site=knmi.nl
+$boost=8,site=fmi.fi
+$boost=8,site=met.no
+$boost=8,site=zamg.ac.at
+$boost=8,site=meteoswiss.admin.ch
+$boost=8,site=aemet.es
+$boost=8,site=ipma.pt
+$boost=8,site=meteoam.it
+$boost=8,site=hnms.gr
+$boost=8,site=mgm.gov.tr
+$boost=8,site=pmo.gov.il
