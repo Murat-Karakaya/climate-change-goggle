@@ -103,9 +103,6 @@ $boost=7,site=grist.org
 $boost=7,site=desmog.com
 $boost=7,site=eco-business.com
 $boost=7,site=sej.org
-$boost=6,site=https://www.google.com/search?q=bloomberg.com/green
-$boost=6,site=https://www.google.com/search?q=reuters.com/business/environment
-$boost=6,site=https://www.google.com/search?q=theguardian.com/environment
 
 ! ======================================================================
 ! TIER 6: ACADEMIC INSTITUTION PATH TARGETING (Top Universities)
